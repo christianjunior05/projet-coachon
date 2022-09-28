@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InscriptionComponent } from './inscription/inscription.component';
 import { ConnexionComponent } from './connexion/connexion.component';
+import { InscriptionRecruteurComponent } from './inscription-recruteur/inscription-recruteur.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InscriptionComponent,
-    ConnexionComponent
+    ConnexionComponent,
+    InscriptionRecruteurComponent
   ],
   imports: [
     BrowserModule,

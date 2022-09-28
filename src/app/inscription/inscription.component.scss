@@ -55,19 +55,16 @@ img{
     border: #102A3E;
     font-size: 15px;
 }
-  .menu-bar {
-    height: 80px;
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 5%;
-    position: relative;
-  }
-  
-  .menu-bar ul {
-    list-style: none;
-    display: flex;
-    margin-inline: 25px;
-  }
- 
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+a{
+    font-family: Malte;
+    margin-bottom: absolute;
+}
